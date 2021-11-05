@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Thông tin đăng nhập</title>
+<script src="../javascript/js_tieude_dangnhap.js"></script>
+<link rel="stylesheet" href="../css/styles_dangnhap.css">
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body onLoad="textusr.focus()">
+	<form name="frmDangNhap" id="frmDangNhap" method="post">
+	<table cellspacing="5" cellpadding="5">
+  <tbody>
+    <tr>
+      <td colspan="2" align="center" style="color: #cd0000; font-size: 30px">Form đăng nhập</td>
+    </tr>
+    <tr>
+      <td width="50%" align="right">Tên người dùng</td>
+      <td width="50%"><input name="textusr" type="text" autofocus required class="txt" id="textusr" size="20px" maxlength="25px"></td>
+    </tr>
+    <tr>
+      <td width="50%" align="right">Mật khẩu</td>
+      <td width="50%" ><input name="textpwd" type="password" autofocus required class="txt" id="textpwd" size="20px" maxlength="25px"></td>
+    </tr>
+    <tr>
+      <td align="right"><input name="dangnhap" type="button" class="button" id="dangnhap" value="Đăng nhập" onClick="goithongtin();"></td>
+      <td align="left"><input type="reset" id="quaylai"  value="Quay lại" class="button" onClick="thongbao.innerText=''"></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center" height="50px"><label id="thongbao"></label> </td>
+    </tr>
+  </tbody>
+</table>
+	</form>
+</body>
+</html>
