@@ -2,7 +2,7 @@
     padding: 10px;
     border-radius: 20px;
     font-size: 14px;
-    width: 700px;
+    width: 400px;
     background-color: grey;
 }
 ::placeholder{
@@ -39,4 +39,5 @@
 .container{
     background-color: #170f23;
     padding: 10px 20px 50px 20px;
+    margin: 10px 0px 0px 0px;
 }
